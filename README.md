@@ -1,4 +1,4 @@
-# A python script to scrape all the members in a telegram group anad save in a CSV file.
+# A python script to scrape all the members in a telegram group and save in a CSV file.
 # REGESTRING
 Go to this link https://core.telegram.org/api/obtaining_api_id and login with with the phone number regitered on telegram.
 
