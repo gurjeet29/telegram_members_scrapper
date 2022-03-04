@@ -8,6 +8,6 @@ Run the python script and enter your api id, api hash and phone number(with coun
 
 It will show you all the groups you are member of.
 
-Select the one you ant members of and the script will do the rest.
+Select the group of which you want the members and the script will do the rest.
 
 You can view the members scraped in a CSV file.
