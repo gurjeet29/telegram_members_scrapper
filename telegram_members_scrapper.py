@@ -23,7 +23,7 @@ if not client.is_user_authorized():
 # You can increase/decrease chunk size according to your own need.
 chats = []
 last_date = None
-chunk_size = 200
+chunk_size = 2000
 groups = []
 
 result = client(GetDialogsRequest(
@@ -54,7 +54,7 @@ target_group = groups[int(g_index)]
 
 print('Fetching Members...')
 all_participants = []
-all_participants = client.get_participants(target_group, aggressive=True)
+all_participants = client.get_participants(target_group)
 
 print('Saving In file...')
 with open("members.csv", "w", encoding='UTF-8') as f:
